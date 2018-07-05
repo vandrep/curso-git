@@ -18,6 +18,8 @@ class NegociacaoController {
                         self._negociacioesView.update(target);
                     }                    
                 }
+                console.log("GIT");
+                
                 return Reflect.get(target, prop, receiver);
             }
         })
